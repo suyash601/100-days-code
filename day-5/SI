@@ -1,0 +1,8 @@
+principle = float(input("Enter the Amount "))
+rate =  float(input("Enter the rate of Interest "))
+time = int(input("Enter the time "))
+SI = float((principle * rate * time)/100)
+amt = principle + SI
+print("Simple Interest is", SI)
+print("Total Amount with Interest is ", amt)
+
