@@ -1,7 +1,0 @@
-principle = float(input("Enter principle amount:"))
-rate = float(input("Enter rate of interest:"))
-time = int(input("Enter time duration:"))
-amount = (principle * (1 + (float(rate)/100))**time)
-compound_interest = amount-principle;
-print("Total amount is ",amount)
-print("Compound interest is",compound_interest)
